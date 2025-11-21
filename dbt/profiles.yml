@@ -1,0 +1,9 @@
+dbt:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: SYSADMIN
+      warehouse: SNOWFLAKE_LEARNING_WH
+      database: USER$WUDMC
+      schema: PUBLIC
